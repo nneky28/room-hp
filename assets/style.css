@@ -1,0 +1,170 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body{
+  line-height: 1.7;
+  font-family: 'Urbanist', sans-serif;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  
+
+}
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: #eeefe9;
+    
+  }
+}
+
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+
+.bg-img {
+  background-image: url("/assets/images/desktop-image-hero-1.jpg");
+  height:70vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+@media (max-width: 28.75em) {
+  .bg-img {
+    text-align: center;
+    font-size: 1rem;
+    background-size: cover;
+  }
+}
+
+.container {
+  position: absolute;
+  margin: 20px;
+  width: auto;
+}
+.topnav {
+  overflow: hidden;
+  
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.text{
+  text-align: center;
+  margin-top: 40px;
+}
+@media (max-width: 28.75em) {
+  .text {
+    text-align: center;
+    font-size: 1rem;
+    margin-left: -25px; 
+  }
+}
+
+.sub-text{
+  color: gray;
+  margin-top: 20px;
+}
+@media (max-width: 28.75em) {
+  .sub-text {
+    text-align: center;
+    font-size: 1rem;
+    margin-right: 35px; 
+  }
+}
+
+.arrow{
+  color: gray;
+  letter-spacing: 8px;
+  text-transform: uppercase;
+  margin-top: 30px;
+}
+@media (max-width: 28.75em) {
+  .arrow {
+    text-align: left;
+    font-size: 1rem;
+    margin-left: 35px; 
+  }
+}
+.w3-1-button{
+  margin-left: -35px;
+  color: #fff;
+  background-color: #000;
+  width: 33px;
+  height: 50px;
+}
+.w3-button{
+  color: #fff;
+  background-color: gray;
+  width: 33px;
+  height: 50px;
+}
+
+.m2{
+  margin-top: -9px;
+}
+
+.w3-center{
+text-decoration: none;
+}
+@media (max-width: 28.75em) {
+  .w3-center {
+    text-align: left;
+    margin-left: -55px;
+     
+  }
+}
+
+
+
+.arm{
+  text-transform: uppercase;
+  margin-top:50px;
+  letter-spacing: 10px;
+  font-size: 15px;
+  font-weight: bolder;
+}
+@media (max-width: 28.75em) {
+  .arm {
+    text-align: center;
+    font-size: 1rem;
+    letter-spacing: 2px;
+  
+  }
+}
+
+.sub{
+margin-top: 20px;
+color: gray;
+}
+@media (max-width: 28.75em) {
+  .sub {
+    text-align: center;
+    font-size: 1rem;
+     
+  }
+}
